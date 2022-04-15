@@ -2,7 +2,7 @@
 
 function model = d_tree(Tbl) %Where A is table with first column as label
 
-model = fitctree(Tbl,'label'); %Built-in to create decision tree model
+model = fitctree(Tbl,'labels'); %Built-in to create decision tree model
 
 %View decision tree
 view(model,'mode','graph')
