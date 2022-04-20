@@ -18,5 +18,6 @@ gscatter(a,b,prediction,'rb','.',1,'off')
 hold on
 gscatter(A,B,C,'rb','v^',[],'off')
 title('Tree Model Predictions vs. Training Labels')
-
+xlabel('Lung size (# pixels)')
+ylabel('Average Lung Pixel Intestiy')
 end
