@@ -3,7 +3,7 @@ Pneumonia Detection using image analysis and machine learning
 Team: Anastasia Izraztsov, Patrick Kennedy, Annie Nguyen, Emma Ziegenbein
 
 Pneumonia Detection Model:
-...
+
   10. The Pneumonia Detection Model is also integrated into a simple to use MATLAB GUI App called PneumoniaApp.
 
 Opening the Pneumonia App:
