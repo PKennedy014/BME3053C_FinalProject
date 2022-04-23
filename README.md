@@ -7,7 +7,7 @@ This project's aim is to assist with and partially automate chest X-ray analysis
 
 Pneumonia Detection Model:
   1. Two variables are used as input into the classification models, lung size (in pixels), and lung opacity (quantified as average lung pixel intensity)
-  2. After testing the several different classification models, the ______ model was chosen.
+  2. After testing the several different classification models as seen with the confusion matrices made withing the testing.mlx file, the LDA model was chosen.
   3. The Pneumonia Detection Model is also integrated into a simple to use MATLAB GUI App called PneumoniaApp.
 
 Opening the Pneumonia App:
