@@ -1,5 +1,6 @@
 # BME3053C_FinalProject
 Pneumonia Detection using image analysis and machine learning
+
 Team: Anastasia Izraztsov, Patrick Kennedy, Annie Nguyen, Emma Ziegenbein
 
 This project's aim is to assist with and partially automate chest X-ray analysis for pneumonia detection in patients. All image and labeling data were aquired through the Kaggle RSNA Pneumonia Detection Challeneg. Using image analysis and machine learning techniques in MATLAB, the team trained several classification models including LDA, decision tree, and kNN models and tested them in order to select the best fit model. This model was then integrated into a simple app that can be used to classify input chest X-ray images as 'positive' or 'negative' for pneumonia. All source code as well as training images, testing images, model confusion matrices and the MATLAB app are available as repository files.
