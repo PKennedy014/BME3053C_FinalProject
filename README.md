@@ -6,7 +6,7 @@ Team: Anastasia Izraztsov, Patrick Kennedy, Annie Nguyen, Emma Ziegenbein
 This project's aim is to assist with and partially automate chest X-ray analysis for pneumonia detection in patients. All image and labeling data were aquired through the Kaggle RSNA Pneumonia Detection Challenge. Using image analysis and machine learning techniques in MATLAB, the team trained several classification models including LDA, decision tree, and kNN models and tested them in order to select the best fit model. This model was then integrated into a simple app that can be used to classify input chest X-ray images as 'positive' or 'negative' for pneumonia. All source code as well as training images, testing images, model confusion matrices and the MATLAB app are available as repository files.
 
 Pneumonia Detection Model:
-  1. Two variables are used as input into the classification models, lung size (in pixels) and lung opacity (quantified as average lung pixel intensity).
+  1. Two variables are used as input into the classification models: lung size (in pixels) and lung opacity (quantified as average lung pixel intensity).
   2. After testing the several different classification models (as seen with the confusion matrices made within the testing.mlx file), the LDA model was chosen.
   3. The Pneumonia Detection Model is also integrated into a simple to use MATLAB GUI App called PneumoniaApp.
 
