@@ -2,9 +2,9 @@
 
 function model = KNN(Tbl)
 
-A = Tbl{:,2}; %labels
-B = Tbl{:,3}; %LungSize
-C = Tbl{:,1}; %AveValues
+A = Tbl{:,2}; %LungSize
+B = Tbl{:,3}; %AveValues
+C = Tbl{:,1}; %labels
 
 model = fitcknn([A,B],C); %Built-in to create KNN model
 

@@ -2,9 +2,9 @@
 
 function model = d_tree(Tbl) 
 
-A = Tbl{:,2}; %labels
-B = Tbl{:,3}; %LungSize
-C = Tbl{:,1}; %AveValues
+A = Tbl{:,2}; %LungSize
+B = Tbl{:,3}; %AveValues
+C = Tbl{:,1}; %labels
 
 model = fitctree([A,B],C); %Built-in to create decision tree model
 
