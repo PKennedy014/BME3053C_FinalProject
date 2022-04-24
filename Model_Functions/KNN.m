@@ -6,7 +6,7 @@ A = Tbl{:,2}; %labels
 B = Tbl{:,3}; %LungSize
 C = Tbl{:,1}; %AveValues
 
-model = fitcknn([A,B],'labels'); %Built-in to create KNN model
+model = fitcknn([A,B],C); %Built-in to create KNN model
 
 %Create scatter of predictioned labels and actual labels at all points
 [a,b] = meshgrid(linspace(min(A),max(A),500), linspace(min(B),max(B),100));

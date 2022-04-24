@@ -6,7 +6,7 @@ A = Tbl{:,2}; %labels
 B = Tbl{:,3}; %LungSize
 C = Tbl{:,1}; %AveValues
 
-model = fitctree([A,B],'labels'); %Built-in to create decision tree model
+model = fitctree([A,B],C); %Built-in to create decision tree model
 
 %View decision tree
 view(model,'mode','graph')
